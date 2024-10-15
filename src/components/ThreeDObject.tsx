@@ -11,6 +11,14 @@ const ThreeDObject: React.FC = () => {
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer();
 
+    const neonBlueLight = new THREE.PointLight(0x00ffff, 1.5, 50);
+    neonBlueLight.position.set(5, 10, 10);
+    scene.add(neonBlueLight);
+  
+    const purpleLight = new THREE.PointLight(0x9900ff, 1, 100);
+    purpleLight.position.set(-10, 5, 15);
+    scene.add(purpleLight);  
+
     renderer.setSize(window.innerWidth, window.innerHeight);
     mountRef.current.appendChild(renderer.domElement);
 
