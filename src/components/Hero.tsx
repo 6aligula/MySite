@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import ThreeDObject from './ThreeDObject';
 
 export default function Hero() {
   return (
@@ -7,11 +8,8 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80")',
-        }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/70" />
+        <ThreeDObject />
       </div>
 
       {/* Content */}
