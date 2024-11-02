@@ -1,4 +1,54 @@
-{
+  {
+    "servicesTitle": "Our Services",
+    "servicesSubtitle": "Comprehensive technology solutions to drive your business forward",
+    "iotProjects": {
+      "title": "IoT Projects",
+      "description": "End-to-end IoT solutions for smart infrastructure and industrial applications"
+    },
+    "customSoftware": {
+      "title": "Custom Software",
+      "description": "Tailored software solutions designed to meet your specific business needs"
+    },
+    "cloudDevOps": {
+      "title": "Cloud & DevOps",
+      "description": "Cloud infrastructure management and DevOps automation services"
+    },
+    "smartAgriculture": {
+      "title": "Smart Agriculture",
+      "description": "Technology solutions for modern farming and agricultural optimization"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "Complete e-commerce solutions from development to strategy"
+    },
+    "technicalTraining": {
+      "title": "Technical Training",
+      "description": "Comprehensive technical education and skill development programs"
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "description": "Advanced security solutions to protect your digital assets"
+    },
+    "apisMicroservices": {
+      "title": "APIs & Microservices",
+      "description": "Scalable API development and microservices architecture"
+    },
+    "appModernization": {
+      "title": "App Modernization",
+      "description": "Legacy system upgrades and application modernization services"
+    },
+    "homeAutomation": {
+      "title": "Home Automation",
+      "description": "Smart home solutions and automation systems"
+    },
+    "contentMonetization": {
+      "title": "Content Monetization",
+      "description": "YouTube strategy and content monetization consulting"
+    },
+    "aiMLProjects": {
+      "title": "AI & ML Projects",
+      "description": "Artificial Intelligence and Machine Learning solutions"
+    },
     "services": "Services",
     "about": "About",
     "contact": "Contact Us"

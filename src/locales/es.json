@@ -1,6 +1,56 @@
 {
+    "servicesTitle": "Nuestros Servicios",
+    "servicesSubtitle": "Soluciones tecnológicas integrales para impulsar tu negocio",
+    "iotProjects": {
+      "title": "Proyectos IoT",
+      "description": "Soluciones IoT de principio a fin para infraestructura inteligente y aplicaciones industriales"
+    },
+    "customSoftware": {
+      "title": "Software Personalizado",
+      "description": "Soluciones de software a medida diseñadas para satisfacer tus necesidades empresariales específicas"
+    },
+    "cloudDevOps": {
+      "title": "Cloud y DevOps",
+      "description": "Gestión de infraestructura en la nube y servicios de automatización DevOps"
+    },
+    "smartAgriculture": {
+      "title": "Agricultura Inteligente",
+      "description": "Soluciones tecnológicas para la agricultura moderna y la optimización agrícola"
+    },
+    "ecommerce": {
+      "title": "Comercio Electrónico",
+      "description": "Soluciones completas de comercio electrónico, desde el desarrollo hasta la estrategia"
+    },
+    "technicalTraining": {
+      "title": "Capacitación Técnica",
+      "description": "Programas completos de educación técnica y desarrollo de habilidades"
+    },
+    "cybersecurity": {
+      "title": "Ciberseguridad",
+      "description": "Soluciones de seguridad avanzadas para proteger tus activos digitales"
+    },
+    "apisMicroservices": {
+      "title": "APIs y Microservicios",
+      "description": "Desarrollo escalable de APIs y arquitectura de microservicios"
+    },
+    "appModernization": {
+      "title": "Modernización de Aplicaciones",
+      "description": "Actualización de sistemas heredados y servicios de modernización de aplicaciones"
+    },
+    "homeAutomation": {
+      "title": "Domótica",
+      "description": "Soluciones para hogares inteligentes y sistemas de automatización"
+    },
+    "contentMonetization": {
+      "title": "Monetización de Contenidos",
+      "description": "Consultoría de estrategia en YouTube y monetización de contenidos"
+    },
+    "aiMLProjects": {
+      "title": "Proyectos de IA y ML",
+      "description": "Soluciones de Inteligencia Artificial y Machine Learning"
+    },
     "services": "Servicios",
     "about": "Acerca de",
     "contact": "Contáctanos"
-  }
+}
   

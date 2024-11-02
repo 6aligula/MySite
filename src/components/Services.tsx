@@ -13,78 +13,81 @@ import {
   Youtube, 
   Brain 
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const services = [
   {
     icon: Cpu,
-    title: 'IoT Projects',
-    description: 'End-to-end IoT solutions for smart infrastructure and industrial applications'
+    titleKey: 'iotProjects.title',
+    descriptionKey: 'iotProjects.description'
   },
   {
     icon: Code,
-    title: 'Custom Software',
-    description: 'Tailored software solutions designed to meet your specific business needs'
+    titleKey: 'customSoftware.title',
+    descriptionKey: 'customSoftware.description'
   },
   {
     icon: Cloud,
-    title: 'Cloud & DevOps',
-    description: 'Cloud infrastructure management and DevOps automation services'
+    titleKey: 'cloudDevOps.title',
+    descriptionKey: 'cloudDevOps.description'
   },
   {
     icon: Leaf,
-    title: 'Smart Agriculture',
-    description: 'Technology solutions for modern farming and agricultural optimization'
+    titleKey: 'smartAgriculture.title',
+    descriptionKey: 'smartAgriculture.description'
   },
   {
     icon: ShoppingCart,
-    title: 'E-commerce',
-    description: 'Complete e-commerce solutions from development to strategy'
+    titleKey: 'ecommerce.title',
+    descriptionKey: 'ecommerce.description'
   },
   {
     icon: GraduationCap,
-    title: 'Technical Training',
-    description: 'Comprehensive technical education and skill development programs'
+    titleKey: 'technicalTraining.title',
+    descriptionKey: 'technicalTraining.description'
   },
   {
     icon: Shield,
-    title: 'Cybersecurity',
-    description: 'Advanced security solutions to protect your digital assets'
+    titleKey: 'cybersecurity.title',
+    descriptionKey: 'cybersecurity.description'
   },
   {
     icon: Network,
-    title: 'APIs & Microservices',
-    description: 'Scalable API development and microservices architecture'
+    titleKey: 'apisMicroservices.title',
+    descriptionKey: 'apisMicroservices.description'
   },
   {
     icon: RefreshCcw,
-    title: 'App Modernization',
-    description: 'Legacy system upgrades and application modernization services'
+    titleKey: 'appModernization.title',
+    descriptionKey: 'appModernization.description'
   },
   {
     icon: Home,
-    title: 'Home Automation',
-    description: 'Smart home solutions and automation systems'
+    titleKey: 'homeAutomation.title',
+    descriptionKey: 'homeAutomation.description'
   },
   {
     icon: Youtube,
-    title: 'Content Monetization',
-    description: 'YouTube strategy and content monetization consulting'
+    titleKey: 'contentMonetization.title',
+    descriptionKey: 'contentMonetization.description'
   },
   {
     icon: Brain,
-    title: 'AI & ML Projects',
-    description: 'Artificial Intelligence and Machine Learning solutions'
+    titleKey: 'aiMLProjects.title',
+    descriptionKey: 'aiMLProjects.description'
   }
 ];
 
 export default function Services() {
+  const { t } = useTranslation();
+
   return (
     <section id="services" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">{t('servicesTitle')}</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Comprehensive technology solutions to drive your business forward
+            {t('servicesSubtitle')}
           </p>
         </div>
 
@@ -95,8 +98,12 @@ export default function Services() {
               className="p-6 rounded-xl bg-gray-800/50 backdrop-blur-sm hover:bg-gray-800/80 transition-colors group"
             >
               <service.icon className="w-12 h-12 text-blue-500 mb-4 group-hover:text-blue-400 transition-colors" />
-              <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
-              <p className="text-gray-400">{service.description}</p>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                {t(service.titleKey)}
+              </h3>
+              <p className="text-gray-400">
+                {t(service.descriptionKey)}
+              </p>
             </div>
           ))}
         </div>
