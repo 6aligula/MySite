@@ -49,6 +49,15 @@
       "title": "AI & ML Projects",
       "description": "Artificial Intelligence and Machine Learning solutions"
     },
+    "hero": {
+        "title": "Transforming Ideas into",
+        "digitalReality": "Digital Reality",
+        "subtitle": "Empowering businesses with cutting-edge technology solutions in IoT, AI, Cloud Computing, and more."
+      },
+      "buttons": {
+        "exploreServices": "Explore Services",
+        "getInTouch": "Get in Touch"
+      },
     "services": "Services",
     "about": "About",
     "contact": "Contact Us"

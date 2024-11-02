@@ -11,7 +11,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-            TechVision
+            AIFINITY
           </div>
 
           {/* Desktop Menu */}

@@ -49,6 +49,15 @@
       "title": "Proyectos de IA y ML",
       "description": "Soluciones de Inteligencia Artificial y Machine Learning"
     },
+    "hero": {
+        "title": "Transformando ideas en",
+        "digitalReality": "Realidad Digital",
+        "subtitle": "Empoderando a las empresas con soluciones tecnológicas de vanguardia en IoT, IA, computación en la nube y más."
+      },
+      "buttons": {
+        "exploreServices": "Explorar Servicios",
+        "getInTouch": "Contactar"
+      },
     "services": "Servicios",
     "about": "Acerca de",
     "contact": "Contáctanos"
