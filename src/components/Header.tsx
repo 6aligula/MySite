@@ -1,34 +1,43 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Code, Home, Briefcase, BookOpen, Mail } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 
-const Header: React.FC = () => {
+export default function Header() {
+  const [isOpen, setIsOpen] = React.useState(false);
+
   return (
-    <header className="bg-blue-600 text-white shadow-md">
-      <nav className="container mx-auto px-6 py-3">
+    <header className="fixed w-full z-50 bg-black/90 backdrop-blur-sm">
+      <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <Code size={24} />
-            <span className="text-xl font-bold">Vinicio Naranjo</span>
-          </Link>
-          <div className="hidden md:flex space-x-6">
-            <NavLink to="/" icon={<Home size={18} />} text="Home" />
-            <NavLink to="/services" icon={<Briefcase size={18} />} text="Services" />
-            <NavLink to="/portfolio" icon={<Code size={18} />} text="Portfolio" />
-            <NavLink to="/blog" icon={<BookOpen size={18} />} text="Blog" />
-            <NavLink to="/contact" icon={<Mail size={18} />} text="Contact" />
+          <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            TechVision
           </div>
+          
+          {/* Desktop Menu */}
+          <div className="hidden md:flex items-center space-x-8">
+            <a href="#services" className="text-gray-300 hover:text-white transition-colors">Services</a>
+            <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
+            <a href="#contact" className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
+              Contact Us
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
+
+        {/* Mobile Menu */}
+        {isOpen && (
+          <div className="md:hidden mt-4 space-y-4">
+            <a href="#services" className="block text-gray-300 hover:text-white transition-colors">Services</a>
+            <a href="#about" className="block text-gray-300 hover:text-white transition-colors">About</a>
+            <a href="#contact" className="block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-center">
+              Contact Us
+            </a>
+          </div>
+        )}
       </nav>
     </header>
   );
-};
-
-const NavLink: React.FC<{ to: string; icon: React.ReactNode; text: string }> = ({ to, icon, text }) => (
-  <Link to={to} className="flex items-center space-x-1 hover:text-blue-200 transition-colors duration-200">
-    {icon}
-    <span>{text}</span>
-  </Link>
-);
-
-export default Header;
+}
