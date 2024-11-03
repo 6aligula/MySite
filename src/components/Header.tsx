@@ -5,6 +5,11 @@ import { useTranslation } from 'react-i18next';
 export default function Header() {
   const [isOpen, setIsOpen] = React.useState(false);
   const { t, i18n } = useTranslation();
+  // Función para cambiar el idioma y guardar en localStorage
+  const changeLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+    localStorage.setItem('i18nextLng', language);
+  };
 
   return (
     <header className="fixed w-full z-50 bg-black/90 backdrop-blur-sm">
@@ -12,7 +17,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
             <a href='/' className='hover:underline'>
-            AIFINITY
+              AIFINITY
             </a>
           </div>
 
@@ -52,10 +57,10 @@ export default function Header() {
 
         {/* Language Switcher */}
         <div className="flex justify-end mt-2">
-          <button onClick={() => i18n.changeLanguage('en')} className="text-gray-300 hover:text-white mr-2">
+          <button onClick={() => changeLanguage('en')} className="text-gray-300 hover:text-white mr-2">
             EN
           </button>
-          <button onClick={() => i18n.changeLanguage('es')} className="text-gray-300 hover:text-white">
+          <button onClick={() => changeLanguage('es')} className="text-gray-300 hover:text-white">
             ES
           </button>
         </div>

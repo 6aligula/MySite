@@ -7,13 +7,17 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { translation: en },
-      es: { translation: es }
+      en: {
+        translation: en
+      },
+      es: {
+        translation: es
+      }
     },
-    lng: 'es', // Idioma por defecto
+    lng: localStorage.getItem('i18nextLng') || 'es', // Usa el idioma del localStorage o 'en' por defecto
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false // React se encarga de la seguridad XSS
+      escapeValue: false
     }
   });
 
