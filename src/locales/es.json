@@ -95,6 +95,19 @@
         }
       ]
     },
+    "contactSection": {
+        "title": "Contáctanos",
+        "form": {
+          "nameLabel": "Nombre",
+          "namePlaceholder": "Tu Nombre",
+          "emailLabel": "Correo Electrónico",
+          "emailPlaceholder": "tu@correo.com",
+          "messageLabel": "Mensaje",
+          "messagePlaceholder": "Tu mensaje aquí...",
+          "submitButton": "Enviar Mensaje",
+          "successMessage": "¡Gracias por tu mensaje! Me pondré en contacto contigo pronto."
+        }
+    },
     "services": "Servicios",
     "about": "Sobre Nosotros",
     "contact": "Contáctanos"
