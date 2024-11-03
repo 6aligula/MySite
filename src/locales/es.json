@@ -1,115 +1,123 @@
 {
     "servicesTitle": "Nuestros Servicios",
     "servicesSubtitle": "Soluciones tecnológicas integrales para impulsar tu negocio",
-    "iotProjects": {
-      "title": "Proyectos IoT",
-      "description": "Soluciones IoT de principio a fin para infraestructura inteligente y aplicaciones industriales"
-    },
-    "customSoftware": {
-      "title": "Software Personalizado",
-      "description": "Soluciones de software adaptadas a las necesidades específicas de tu negocio"
-    },
-    "cloudDevOps": {
-      "title": "Cloud y DevOps",
-      "description": "Gestión de infraestructura en la nube y servicios de automatización DevOps"
-    },
-    "smartAgriculture": {
-      "title": "Agricultura Inteligente",
-      "description": "Soluciones tecnológicas para la agricultura moderna y optimización agrícola"
-    },
-    "ecommerce": {
-      "title": "Comercio Electrónico",
-      "description": "Soluciones completas de comercio electrónico, desde el desarrollo hasta la estrategia"
-    },
-    "technicalTraining": {
-      "title": "Capacitación Técnica",
-      "description": "Programas completos de educación técnica y desarrollo de habilidades"
-    },
-    "cybersecurity": {
-      "title": "Ciberseguridad",
-      "description": "Soluciones avanzadas de seguridad para proteger tus activos digitales"
-    },
-    "apisMicroservices": {
-      "title": "APIs y Microservicios",
-      "description": "Desarrollo de APIs escalables y arquitectura de microservicios"
-    },
-    "appModernization": {
-      "title": "Modernización de Aplicaciones",
-      "description": "Actualización de sistemas heredados y servicios de modernización de aplicaciones"
-    },
-    "homeAutomation": {
-      "title": "Automatización del Hogar",
-      "description": "Soluciones de hogar inteligente y sistemas de automatización"
-    },
-    "contentMonetization": {
-      "title": "Monetización de Contenidos",
-      "description": "Estrategia en YouTube y consultoría para la monetización de contenidos"
-    },
-    "aiMLProjects": {
-      "title": "Proyectos de IA y ML",
-      "description": "Soluciones de Inteligencia Artificial y Aprendizaje Automático"
-    },
+    "servicesList": [
+        {
+            "iconKey": "iotProjects",
+            "title": "Proyectos IoT",
+            "description": "Soluciones IoT de principio a fin para infraestructura inteligente y aplicaciones industriales"
+        },
+        {
+            "iconKey": "customSoftware",
+            "title": "Software Personalizado",
+            "description": "Soluciones de software adaptadas a las necesidades específicas de tu negocio"
+        },
+        {
+            "iconKey": "cloudDevOps",
+            "title": "Cloud y DevOps",
+            "description": "Gestión de infraestructura en la nube y servicios de automatización DevOps"
+        },
+        {
+            "iconKey": "smartAgriculture",
+            "title": "Agricultura Inteligente",
+            "description": "Soluciones tecnológicas para la agricultura moderna y optimización agrícola"
+        },
+        {
+            "iconKey": "ecommerce",
+            "title": "Comercio Electrónico",
+            "description": "Soluciones completas de comercio electrónico, desde el desarrollo hasta la estrategia"
+        },
+        {
+            "iconKey": "technicalTraining",
+            "title": "Capacitación Técnica",
+            "description": "Programas completos de educación técnica y desarrollo de habilidades"
+        },
+        {
+            "iconKey": "cybersecurity",
+            "title": "Ciberseguridad",
+            "description": "Soluciones avanzadas de seguridad para proteger tus activos digitales"
+        },
+        {
+            "iconKey": "apisMicroservices",
+            "title": "APIs y Microservicios",
+            "description": "Desarrollo de APIs escalables y arquitectura de microservicios"
+        },
+        {
+            "iconKey": "appModernization",
+            "title": "Modernización de Aplicaciones",
+            "description": "Actualización de sistemas heredados y servicios de modernización de aplicaciones"
+        },
+        {
+            "iconKey": "homeAutomation",
+            "title": "Automatización del Hogar",
+            "description": "Soluciones de hogar inteligente y sistemas de automatización"
+        },
+        {
+            "iconKey": "aiMLProjects",
+            "title": "Proyectos de IA y ML",
+            "description": "Soluciones de Inteligencia Artificial y Aprendizaje Automático"
+        }
+    ],
     "hero": {
-      "title": "Transformando Ideas en",
-      "digitalReality": "Realidad Digital",
-      "subtitle": "Empoderando a las empresas con soluciones tecnológicas de vanguardia en IoT, IA, Computación en la Nube y más."
+        "title": "Transformando Ideas en",
+        "digitalReality": "Realidad Digital",
+        "subtitle": "Empoderando a las empresas con soluciones tecnológicas de vanguardia en IoT, IA, Computación en la Nube y más."
     },
     "buttons": {
-      "exploreServices": "Explorar Servicios",
-      "getInTouch": "Contáctanos"
+        "exploreServices": "Explorar Servicios",
+        "getInTouch": "Contáctanos"
     },
     "aboutSection": {
-      "title": "Sobre Nosotros",
-      "sections": [
-        {
-          "title": "Soluciones IoT Innovadoras",
-          "text": "Con más de 10 años de experiencia, nos especializamos en diseñar y desarrollar sistemas IoT avanzados para hogares inteligentes, aplicaciones industriales y monitoreo agrícola. Nuestra experiencia garantiza una integración fluida y un rendimiento optimizado."
-        },
-        {
-          "title": "Desarrollo de Backend Personalizado",
-          "text": "Creamos sistemas de backend escalables y eficientes utilizando tecnologías de vanguardia como FastAPI, .NET Core y Docker, asegurando confiabilidad y rendimiento para aplicaciones a nivel empresarial."
-        },
-        {
-          "title": "Experiencia en Ciencia de Datos",
-          "text": "Nuestras soluciones de ciencia de datos aprovechan el aprendizaje automático y el análisis predictivo para proporcionar información procesable y tomar decisiones comerciales más inteligentes en diversas industrias."
-        },
-        {
-          "title": "Servicios de Integración de IA",
-          "text": "Integramos capacidades de IA en aplicaciones web y móviles, mejorando la funcionalidad y creando experiencias de usuario inteligentes."
-        },
-        {
-          "title": "Consultoría en Cloud y DevOps",
-          "text": "Nuestro equipo ayuda a las empresas a aprovechar el poder de la computación en la nube y optimizar los procesos de implementación con Kubernetes, Docker y las mejores prácticas de CI/CD."
-        },
-        {
-          "title": "Ciberseguridad Integral",
-          "text": "Priorizamos la seguridad, proporcionando mejores prácticas y estrategias sólidas para proteger tus sistemas, especialmente en entornos IoT y conectados."
-        },
-        {
-          "title": "Soluciones de Desarrollo Full-Stack",
-          "text": "Desde el frontend hasta el backend, nuestros servicios de desarrollo full-stack cubren todos los aspectos necesarios para crear aplicaciones receptivas, amigables y de alto rendimiento."
-        },
-        {
-          "title": "Soluciones de Software Personalizadas",
-          "text": "Ofrecemos soluciones de software personalizadas que están diseñadas para satisfacer las necesidades únicas de tu negocio, desde el concepto hasta el despliegue."
-        }
-      ]
+        "title": "Sobre Nosotros",
+        "sections": [
+            {
+                "title": "Soluciones IoT Innovadoras",
+                "text": "Con más de 10 años de experiencia, nos especializamos en diseñar y desarrollar sistemas IoT avanzados para hogares inteligentes, aplicaciones industriales y monitoreo agrícola. Nuestra experiencia garantiza una integración fluida y un rendimiento optimizado."
+            },
+            {
+                "title": "Desarrollo de Backend Personalizado",
+                "text": "Creamos sistemas de backend escalables y eficientes utilizando tecnologías de vanguardia como FastAPI, .NET Core y Docker, asegurando confiabilidad y rendimiento para aplicaciones a nivel empresarial."
+            },
+            {
+                "title": "Experiencia en Ciencia de Datos",
+                "text": "Nuestras soluciones de ciencia de datos aprovechan el aprendizaje automático y el análisis predictivo para proporcionar información procesable y tomar decisiones comerciales más inteligentes en diversas industrias."
+            },
+            {
+                "title": "Servicios de Integración de IA",
+                "text": "Integramos capacidades de IA en aplicaciones web y móviles, mejorando la funcionalidad y creando experiencias de usuario inteligentes."
+            },
+            {
+                "title": "Consultoría en Cloud y DevOps",
+                "text": "Nuestro equipo ayuda a las empresas a aprovechar el poder de la computación en la nube y optimizar los procesos de implementación con Kubernetes, Docker y las mejores prácticas de CI/CD."
+            },
+            {
+                "title": "Ciberseguridad Integral",
+                "text": "Priorizamos la seguridad, proporcionando mejores prácticas y estrategias sólidas para proteger tus sistemas, especialmente en entornos IoT y conectados."
+            },
+            {
+                "title": "Soluciones de Desarrollo Full-Stack",
+                "text": "Desde el frontend hasta el backend, nuestros servicios de desarrollo full-stack cubren todos los aspectos necesarios para crear aplicaciones receptivas, amigables y de alto rendimiento."
+            },
+            {
+                "title": "Soluciones de Software Personalizadas",
+                "text": "Ofrecemos soluciones de software personalizadas que están diseñadas para satisfacer las necesidades únicas de tu negocio, desde el concepto hasta el despliegue."
+            }
+        ]
     },
     "contactSection": {
         "title": "Contáctanos",
         "form": {
-          "nameLabel": "Nombre",
-          "namePlaceholder": "Tu Nombre",
-          "emailLabel": "Correo Electrónico",
-          "emailPlaceholder": "tu@correo.com",
-          "messageLabel": "Mensaje",
-          "messagePlaceholder": "Tu mensaje aquí...",
-          "submitButton": "Enviar Mensaje",
-          "successMessage": "¡Gracias por tu mensaje! Me pondré en contacto contigo pronto."
+            "nameLabel": "Nombre",
+            "namePlaceholder": "Tu Nombre",
+            "emailLabel": "Correo Electrónico",
+            "emailPlaceholder": "tu@correo.com",
+            "messageLabel": "Mensaje",
+            "messagePlaceholder": "Tu mensaje aquí...",
+            "submitButton": "Enviar Mensaje",
+            "successMessage": "¡Gracias por tu mensaje! Me pondré en contacto contigo pronto."
         }
     },
     "services": "Servicios",
     "about": "Sobre Nosotros",
     "contact": "Contáctanos"
-  }
-  
+}

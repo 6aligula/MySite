@@ -1,115 +1,123 @@
 {
     "servicesTitle": "Our Services",
     "servicesSubtitle": "Comprehensive technology solutions to drive your business forward",
-    "iotProjects": {
-      "title": "IoT Projects",
-      "description": "End-to-end IoT solutions for smart infrastructure and industrial applications"
-    },
-    "customSoftware": {
-      "title": "Custom Software",
-      "description": "Tailored software solutions designed to meet your specific business needs"
-    },
-    "cloudDevOps": {
-      "title": "Cloud & DevOps",
-      "description": "Cloud infrastructure management and DevOps automation services"
-    },
-    "smartAgriculture": {
-      "title": "Smart Agriculture",
-      "description": "Technology solutions for modern farming and agricultural optimization"
-    },
-    "ecommerce": {
-      "title": "E-commerce",
-      "description": "Complete e-commerce solutions from development to strategy"
-    },
-    "technicalTraining": {
-      "title": "Technical Training",
-      "description": "Comprehensive technical education and skill development programs"
-    },
-    "cybersecurity": {
-      "title": "Cybersecurity",
-      "description": "Advanced security solutions to protect your digital assets"
-    },
-    "apisMicroservices": {
-      "title": "APIs & Microservices",
-      "description": "Scalable API development and microservices architecture"
-    },
-    "appModernization": {
-      "title": "App Modernization",
-      "description": "Legacy system upgrades and application modernization services"
-    },
-    "homeAutomation": {
-      "title": "Home Automation",
-      "description": "Smart home solutions and automation systems"
-    },
-    "contentMonetization": {
-      "title": "Content Monetization",
-      "description": "YouTube strategy and content monetization consulting"
-    },
-    "aiMLProjects": {
-      "title": "AI & ML Projects",
-      "description": "Artificial Intelligence and Machine Learning solutions"
-    },
+    "servicesList": [
+        {
+            "iconKey": "iotProjects",
+            "title": "IoT Projects",
+            "description": "End-to-end IoT solutions for smart infrastructure and industrial applications"
+        },
+        {
+            "iconKey": "customSoftware",
+            "title": "Custom Software",
+            "description": "Tailored software solutions designed to meet your specific business needs"
+        },
+        {
+            "iconKey": "cloudDevOps",
+            "title": "Cloud & DevOps",
+            "description": "Cloud infrastructure management and DevOps automation services"
+        },
+        {
+            "iconKey": "smartAgriculture",
+            "title": "Smart Agriculture",
+            "description": "Technology solutions for modern farming and agricultural optimization"
+        },
+        {
+            "iconKey": "ecommerce",
+            "title": "E-commerce",
+            "description": "Complete e-commerce solutions from development to strategy"
+        },
+        {
+            "iconKey": "technicalTraining",
+            "title": "Technical Training",
+            "description": "Comprehensive technical education and skill development programs"
+        },
+        {
+            "iconKey": "cybersecurity",
+            "title": "Cybersecurity",
+            "description": "Advanced security solutions to protect your digital assets"
+        },
+        {
+            "iconKey": "apisMicroservices",
+            "title": "APIs & Microservices",
+            "description": "Scalable API development and microservices architecture"
+        },
+        {
+            "iconKey": "appModernization",
+            "title": "App Modernization",
+            "description": "Legacy system upgrades and application modernization services"
+        },
+        {
+            "iconKey": "homeAutomation",
+            "title": "Home Automation",
+            "description": "Smart home solutions and automation systems"
+        },
+        {
+            "iconKey": "aiMLProjects",
+            "title": "AI & ML Projects",
+            "description": "Artificial Intelligence and Machine Learning solutions"
+        }
+    ],
     "hero": {
-      "title": "Transforming Ideas into",
-      "digitalReality": "Digital Reality",
-      "subtitle": "Empowering businesses with cutting-edge technology solutions in IoT, AI, Cloud Computing, and more."
+        "title": "Transforming Ideas into",
+        "digitalReality": "Digital Reality",
+        "subtitle": "Empowering businesses with cutting-edge technology solutions in IoT, AI, Cloud Computing, and more."
     },
     "buttons": {
-      "exploreServices": "Explore Services",
-      "getInTouch": "Get in Touch"
+        "exploreServices": "Explore Services",
+        "getInTouch": "Get in Touch"
     },
     "aboutSection": {
-      "title": "About Us",
-      "sections": [
-        {
-          "title": "Innovative IoT Solutions",
-          "text": "With over 10 years of experience, we specialize in designing and developing advanced IoT systems for smart homes, industrial applications, and agricultural monitoring. Our expertise ensures seamless integration and optimized performance."
-        },
-        {
-          "title": "Custom Backend Development",
-          "text": "We craft scalable, efficient backend systems using cutting-edge technologies like FastAPI, .NET Core, and Docker, ensuring reliability and performance for enterprise-level applications."
-        },
-        {
-          "title": "Data Science Expertise",
-          "text": "Our data science solutions leverage machine learning and predictive analytics to provide actionable insights and drive smarter business decisions across various industries."
-        },
-        {
-          "title": "AI Integration Services",
-          "text": "We integrate AI capabilities into web and mobile applications, enhancing functionality and creating intelligent user experiences."
-        },
-        {
-          "title": "Cloud and DevOps Consulting",
-          "text": "Our team helps businesses harness the power of cloud computing and streamline deployment processes with Kubernetes, Docker, and CI/CD best practices."
-        },
-        {
-          "title": "Comprehensive Cybersecurity",
-          "text": "We prioritize security, providing best practices and robust strategies to protect your systems, especially in IoT and connected environments."
-        },
-        {
-          "title": "Full-Stack Development Solutions",
-          "text": "From frontend to backend, our full-stack development services cover every aspect needed for building responsive, user-friendly, and high-performance applications."
-        },
-        {
-          "title": "Tailored Software Solutions",
-          "text": "We offer custom software solutions that are designed to meet the unique needs of your business, from concept to deployment."
-        }
-      ]
+        "title": "About Us",
+        "sections": [
+            {
+                "title": "Innovative IoT Solutions",
+                "text": "With over 10 years of experience, we specialize in designing and developing advanced IoT systems for smart homes, industrial applications, and agricultural monitoring. Our expertise ensures seamless integration and optimized performance."
+            },
+            {
+                "title": "Custom Backend Development",
+                "text": "We craft scalable, efficient backend systems using cutting-edge technologies like FastAPI, .NET Core, and Docker, ensuring reliability and performance for enterprise-level applications."
+            },
+            {
+                "title": "Data Science Expertise",
+                "text": "Our data science solutions leverage machine learning and predictive analytics to provide actionable insights and drive smarter business decisions across various industries."
+            },
+            {
+                "title": "AI Integration Services",
+                "text": "We integrate AI capabilities into web and mobile applications, enhancing functionality and creating intelligent user experiences."
+            },
+            {
+                "title": "Cloud and DevOps Consulting",
+                "text": "Our team helps businesses harness the power of cloud computing and streamline deployment processes with Kubernetes, Docker, and CI/CD best practices."
+            },
+            {
+                "title": "Comprehensive Cybersecurity",
+                "text": "We prioritize security, providing best practices and robust strategies to protect your systems, especially in IoT and connected environments."
+            },
+            {
+                "title": "Full-Stack Development Solutions",
+                "text": "From frontend to backend, our full-stack development services cover every aspect needed for building responsive, user-friendly, and high-performance applications."
+            },
+            {
+                "title": "Tailored Software Solutions",
+                "text": "We offer custom software solutions that are designed to meet the unique needs of your business, from concept to deployment."
+            }
+        ]
     },
     "contactSection": {
         "title": "Contact Us",
         "form": {
-          "nameLabel": "Name",
-          "namePlaceholder": "Your Name",
-          "emailLabel": "Email",
-          "emailPlaceholder": "your@email.com",
-          "messageLabel": "Message",
-          "messagePlaceholder": "Your message here...",
-          "submitButton": "Send Message",
-          "successMessage": "Thank you for your message! I will get back to you soon."
+            "nameLabel": "Name",
+            "namePlaceholder": "Your Name",
+            "emailLabel": "Email",
+            "emailPlaceholder": "your@email.com",
+            "messageLabel": "Message",
+            "messagePlaceholder": "Your message here...",
+            "submitButton": "Send Message",
+            "successMessage": "Thank you for your message! I will get back to you soon."
         }
     },
     "services": "Services",
     "about": "About",
     "contact": "Contact Us"
-  }
-  
+}

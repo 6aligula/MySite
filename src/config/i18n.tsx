@@ -10,7 +10,7 @@ i18n
       en: { translation: en },
       es: { translation: es }
     },
-    lng: 'en', // Idioma por defecto
+    lng: 'es', // Idioma por defecto
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false // React se encarga de la seguridad XSS
