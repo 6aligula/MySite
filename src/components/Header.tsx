@@ -11,7 +11,9 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <a href='/' className='hover:underline'>
             AIFINITY
+            </a>
           </div>
 
           {/* Desktop Menu */}
@@ -19,10 +21,10 @@ export default function Header() {
             <a href="#services" className="text-gray-300 hover:text-white transition-colors">
               {t('services')}
             </a>
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+            <a href="about" className="text-gray-300 hover:text-white transition-colors">
               {t('about')}
             </a>
-            <a href="#contact" className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
+            <a href="contact" className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
               {t('contact')}
             </a>
           </div>
@@ -39,10 +41,10 @@ export default function Header() {
             <a href="#services" className="block text-gray-300 hover:text-white transition-colors">
               {t('services')}
             </a>
-            <a href="#about" className="block text-gray-300 hover:text-white transition-colors">
+            <a href="about" className="block text-gray-300 hover:text-white transition-colors">
               {t('about')}
             </a>
-            <a href="#contact" className="block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-center">
+            <a href="contact" className="block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-center">
               {t('contact')}
             </a>
           </div>

@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <a href="https://github.com/6aligula" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors duration-200">
               <Github size={24} />
             </a>
-            <a href="#" className="hover:text-blue-400 transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/vinicio-alejandro-naranjo-mosquera-a83017122/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors duration-200">
               <Linkedin size={24} />
             </a>
             <a href="#" className="hover:text-blue-400 transition-colors duration-200">

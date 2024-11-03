@@ -1,4 +1,4 @@
-  {
+{
     "servicesTitle": "Our Services",
     "servicesSubtitle": "Comprehensive technology solutions to drive your business forward",
     "iotProjects": {
@@ -50,14 +50,51 @@
       "description": "Artificial Intelligence and Machine Learning solutions"
     },
     "hero": {
-        "title": "Transforming Ideas into",
-        "digitalReality": "Digital Reality",
-        "subtitle": "Empowering businesses with cutting-edge technology solutions in IoT, AI, Cloud Computing, and more."
-      },
-      "buttons": {
-        "exploreServices": "Explore Services",
-        "getInTouch": "Get in Touch"
-      },
+      "title": "Transforming Ideas into",
+      "digitalReality": "Digital Reality",
+      "subtitle": "Empowering businesses with cutting-edge technology solutions in IoT, AI, Cloud Computing, and more."
+    },
+    "buttons": {
+      "exploreServices": "Explore Services",
+      "getInTouch": "Get in Touch"
+    },
+    "aboutSection": {
+      "title": "About Us",
+      "sections": [
+        {
+          "title": "Innovative IoT Solutions",
+          "text": "With over 10 years of experience, we specialize in designing and developing advanced IoT systems for smart homes, industrial applications, and agricultural monitoring. Our expertise ensures seamless integration and optimized performance."
+        },
+        {
+          "title": "Custom Backend Development",
+          "text": "We craft scalable, efficient backend systems using cutting-edge technologies like FastAPI, .NET Core, and Docker, ensuring reliability and performance for enterprise-level applications."
+        },
+        {
+          "title": "Data Science Expertise",
+          "text": "Our data science solutions leverage machine learning and predictive analytics to provide actionable insights and drive smarter business decisions across various industries."
+        },
+        {
+          "title": "AI Integration Services",
+          "text": "We integrate AI capabilities into web and mobile applications, enhancing functionality and creating intelligent user experiences."
+        },
+        {
+          "title": "Cloud and DevOps Consulting",
+          "text": "Our team helps businesses harness the power of cloud computing and streamline deployment processes with Kubernetes, Docker, and CI/CD best practices."
+        },
+        {
+          "title": "Comprehensive Cybersecurity",
+          "text": "We prioritize security, providing best practices and robust strategies to protect your systems, especially in IoT and connected environments."
+        },
+        {
+          "title": "Full-Stack Development Solutions",
+          "text": "From frontend to backend, our full-stack development services cover every aspect needed for building responsive, user-friendly, and high-performance applications."
+        },
+        {
+          "title": "Tailored Software Solutions",
+          "text": "We offer custom software solutions that are designed to meet the unique needs of your business, from concept to deployment."
+        }
+      ]
+    },
     "services": "Services",
     "about": "About",
     "contact": "Contact Us"
