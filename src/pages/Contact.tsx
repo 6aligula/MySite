@@ -9,6 +9,7 @@ const Contact: React.FC = () => {
     email: '',
     message: ''
   });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -18,11 +19,31 @@ const Contact: React.FC = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert(t('contactSection.form.successMessage'));
-    setFormData({ name: '', email: '', message: '' });
+    setLoading(true);
+
+    try {
+      const response = await fetch('http://localhost:3001/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        alert(t('contactSection.form.successMessage'));
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        alert('Failed to send message. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('An error occurred while sending your message.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -82,6 +103,7 @@ const Contact: React.FC = () => {
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center"
               type="submit"
+              disabled={loading}
             >
               {t('contactSection.form.submitButton')}
               <Send size={18} className="ml-2" />
