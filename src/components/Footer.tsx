@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p>&copy; 2024 Vinicio Naranjo. All rights reserved.</p>
           </div>
           <div className="flex space-x-4">
             <a href="https://github.com/6aligula" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors duration-200">
