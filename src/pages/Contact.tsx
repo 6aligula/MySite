@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Send } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Swal from 'sweetalert2';
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
@@ -33,14 +34,32 @@ const Contact: React.FC = () => {
       });
 
       if (response.ok) {
-        alert(t('contactSection.form.successMessage'));
+        Swal.fire({
+          title: t('contactSection.form.successTitle'),
+          text: t('contactSection.form.successMessage'),
+          icon: 'success',
+          confirmButtonText: 'OK',
+          customClass: {
+            confirmButton: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+          }
+        });
         setFormData({ name: '', email: '', message: '' });
       } else {
-        alert('Failed to send message. Please try again later.');
+        Swal.fire({
+          title: 'Error',
+          text: 'Failed to send message. Please try again later.',
+          icon: 'error',
+          confirmButtonText: 'OK'
+        });
       }
     } catch (error) {
       console.error('Error sending message:', error);
-      alert('An error occurred while sending your message.');
+      Swal.fire({
+        title: 'Error',
+        text: 'An error occurred while sending your message.Server',
+        icon: 'error',
+        confirmButtonText: 'OK'
+      });
     } finally {
       setLoading(false);
     }

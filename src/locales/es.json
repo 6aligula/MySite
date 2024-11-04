@@ -114,6 +114,7 @@
             "messageLabel": "Mensaje",
             "messagePlaceholder": "Tu mensaje aquí...",
             "submitButton": "Enviar Mensaje",
+            "successTitle": "¡Muchas Gracias!",
             "successMessage": "¡Gracias por tu mensaje! Me pondré en contacto contigo pronto."
         }
     },
