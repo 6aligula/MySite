@@ -8,4 +8,5 @@ export default defineConfig({
     port: 5173      // Opcional: puedes especificar el puerto
   },
   plugins: [react()],
+  base: '/MySite/',
 })
