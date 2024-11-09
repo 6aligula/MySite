@@ -19,7 +19,7 @@ const ThreeDObject: React.FC = () => {
 
     // Load Earth texture
     const textureLoader = new THREE.TextureLoader();
-    const earthTexture = textureLoader.load('/src/assets/earth6.webp');
+    const earthTexture = textureLoader.load('/earth6.webp');
 
     const material = new THREE.MeshPhongMaterial({
       map: earthTexture,
